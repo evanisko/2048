@@ -1,0 +1,12 @@
+[package]
+name = "blah_2048"
+version = "0.8.0"
+authors = ["Jacques Menard<jacques-menard@gmail.com>", "Nicholas Barnes<addemail@email.com>", "Eric Vanisko<evanisko38@gmail.com>"]
+
+[dependencies]
+piston_window = "*"
+lib_2048 = { git = "https://bitbucket.org/AdrienChampion/rust_2048.git", rev = "4751eb6" }
+find_folder = "*"
+gfx_device_gl = "*"
+gfx = "*"
+piston2d-gfx_graphics = "*"
